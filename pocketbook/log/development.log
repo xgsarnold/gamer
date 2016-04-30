@@ -1,0 +1,25 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-25 14:55:34 -0400
+Processing by SayController#hello as HTML
+  Rendered say/hello.html.erb within layouts/application (1.3ms)
+Compiled jquery.js  (3ms)  (pid 1663)
+Compiled jquery_ujs.js  (0ms)  (pid 1663)
+Compiled application.js  (15ms)  (pid 1663)
+Completed 200 OK in 36.6ms (Views: 35.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-25 14:55:34 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-25 14:55:34 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-25 14:55:34 -0400
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/newapp-icon.png" for 127.0.0.1 at 2016-04-25 14:55:34 -0400
+Served asset /newapp-icon.png - 200 OK (3ms)
