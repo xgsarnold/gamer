@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+
+  root 'games#index'
+  resources :games
+  get 'games/autocomplete'
+
+  get 'dashboard/home'
+
+  post 'session/login'
+  delete 'session/logout'
+
+  resources :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
